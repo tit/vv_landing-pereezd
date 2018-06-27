@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182px" height="120px" viewBox="0 0 182 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>DB11CEB4-9276-4BB3-90AB-F3057691A60D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="frontend" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pereezdy-desktop" transform="translate(-247.000000, -707.000000)">
+            <g id="Group-9-Copy" transform="translate(25.000000, 543.000000)">
+                <g id="2-normal-copy-2" transform="translate(222.000000, 164.000000)">
+                    <rect id="Rectangle-2" stroke="#C2CBDA" fill="#FFFFFF" x="0.5" y="0.5" width="181" height="119" rx="4"></rect>
+                    <g id="Group-3" transform="translate(38.000000, 17.000000)">
+                        <g id="Group-20" transform="translate(0.000000, 1.000000)">
+                            <path d="M62,1 L2,1 L2,37 L62,37 L62,1 Z" id="Rectangle-9" stroke="#2E425E" stroke-width="2" fill="#FFFFFF"></path>
+                            <text id="1" opacity="0.5" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#2E425E">
+                                <tspan x="26.4462891" y="26">1</tspan>
+                            </text>
+                            <rect id="Rectangle-9-Copy" stroke="#2E425E" fill="#FFFFFF" x="0.5" y="14.5" width="3" height="15"></rect>
+                            <rect id="Rectangle-9-Copy-2" stroke="#2E425E" fill="#FFFFFF" x="0.5" y="8.5" width="3" height="15"></rect>
+                        </g>
+                        <g id="Group-20-Copy" transform="translate(79.000000, 24.000000) rotate(-180.000000) translate(-79.000000, -24.000000) translate(52.000000, 0.000000)">
+                            <path d="M44,1 L2,1 L2,46 L44,46 L44,1 Z" id="Rectangle-9" stroke="#2E425E" stroke-width="2" fill="#FFFFFF"></path>
+                            <text id="2" opacity="0.5" transform="translate(22.500000, 25.500000) scale(-1, -1) translate(-22.500000, -25.500000) " font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#2E425E">
+                                <tspan x="17.4462891" y="32">2</tspan>
+                            </text>
+                            <path d="M54,38.4953752 C50.923281,38.5465858 48.423281,37.7023366 46.5,35.9626276 C44.576719,34.2229185 43.4100523,31.9012332 43,28.9975717 L54,28.9975717" id="Path-3" stroke="#2E425E" fill="#FFFFFF" transform="translate(48.500000, 33.747572) rotate(-180.000000) translate(-48.500000, -33.747572) "></path>
+                            <path d="M28.5,10.2478035 C25.423281,10.2990141 22.923281,9.45476495 21,7.71505588 C19.076719,5.97534682 17.9100523,3.65366152 17.5,0.75 L28.5,0.75" id="Path-3-Copy" stroke="#2E425E" fill="#FFFFFF" transform="translate(23.000000, 5.500000) rotate(-90.000000) translate(-23.000000, -5.500000) "></path>
+                            <rect id="Rectangle-9-Copy" stroke="#2E425E" fill="#FFFFFF" x="0.5" y="16.5" width="3" height="15"></rect>
+                            <rect id="Rectangle-9-Copy-3" stroke="#2E425E" fill="#FFFFFF" x="15.5" y="44.5" width="15" height="3"></rect>
+                        </g>
+                    </g>
+                    <text id="2-х-комнатная" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#252525">
+                        <tspan x="34.535" y="88">2-х комнатная</tspan>
+                    </text>
+                    <text id="квартира" opacity="0.699999988" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#252525">
+                        <tspan x="62.6925" y="104">квартира</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

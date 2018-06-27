@@ -1,0 +1,112 @@
+.Info {
+    padding: 57px 40px;
+    background-color: #f7f7f7;
+
+    & .container {
+        max-width: 1170px;
+        padding: 0 0 0 33px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    &__title {
+        text-align: center;
+        font: normal 40px $RobotoSlab;
+        color: #333333;
+        max-width: 670px;
+        margin: 0 auto;
+    }
+
+    &__info-wrapper {
+        margin-top: 31px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__baggage {
+        max-width: 425px;
+    }
+
+    &__info-text {
+
+        font-size: 14px;
+        font-family: $Helvetica;
+        color: #333333;
+        padding-right: 15px;
+        box-sizing: border-box;
+
+        & p {
+            margin-bottom: 24px;
+            line-height: 24px;
+        }
+    }
+
+    &__to-calculator {
+        background: linear-gradient(to top, #ffc12f, #ffce43);
+        border: 0;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 40px auto 0 auto;
+        display: block;
+        padding: 19px 54px;
+        box-shadow: 0px 11px 14px -8px rgba(0, 0, 0, 0.2);
+        color: #252525;
+        font: 22px $Roboto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Info {
+
+        &__baggage {
+            max-width: 30%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Info {
+        padding: 30px 20px;
+
+        .container {
+            padding: 0;
+        }
+
+        &__info-wrapper {
+            margin-top: 20px;
+        }
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__baggage {
+            display: none;
+        }
+
+        &__info-text {
+            padding: 0;
+        }
+
+        &__to-calculator {
+            font-size: 16px;
+            margin-top: 0;
+            padding: 10px 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Info {
+
+        &__title {
+            font-size: 22px;
+        }
+
+        &__to-calculator {
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+    }
+}

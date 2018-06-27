@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182px" height="120px" viewBox="0 0 182 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>D18B8087-32EE-41A6-8472-EC2BAC473FD2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="182" height="120" rx="4"></rect>
+        <filter x="-1.1%" y="-1.7%" width="102.2%" height="103.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="frontend" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pereezdy-desktop" transform="translate(-55.000000, -707.000000)">
+            <g id="Group-9-Copy" transform="translate(25.000000, 543.000000)">
+                <g id="1-active-copy-2" transform="translate(30.000000, 164.000000)">
+                    <g id="Group-20-+-квартира-+-1-комнатная-Mask">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="#5070B2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-20" mask="url(#mask-2)">
+                            <g transform="translate(56.045000, 22.000000)">
+                                <path d="M68,1 L2,1 L2,39 L68,39 L68,1 Z" id="Rectangle-9" stroke="#FFFFFF" stroke-width="2" fill="#5070B2" fill-rule="evenodd"></path>
+                                <text id="1" stroke="none" fill="none" opacity="0.5" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal">
+                                    <tspan x="29.9462891" y="26" fill="#FFFFFF">1</tspan>
+                                </text>
+                                <rect id="Rectangle-9-Copy" stroke="#FFFFFF" stroke-width="1" fill="#5070B2" fill-rule="evenodd" x="0.5" y="15.5" width="3" height="15"></rect>
+                                <rect id="Rectangle-9-Copy-2" stroke="#FFFFFF" stroke-width="1" fill="#5070B2" fill-rule="evenodd" x="0.5" y="9.5" width="3" height="15"></rect>
+                                <path d="M68.5,18.5 C65.423281,18.2484373 62.923281,17.2484373 61,15.5 C59.076719,13.7515627 57.9100523,11.4182294 57.5,8.5 L68.5,8.5" id="Path-3" stroke="#FFFFFF" stroke-width="1" fill="none"></path>
+                            </g>
+                        </g>
+                        <text id="квартира" opacity="0.699999988" mask="url(#mask-2)" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="62.6925" y="104">квартира</tspan>
+                        </text>
+                        <text id="1-комнатная" mask="url(#mask-2)" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="39.69" y="88">1-комнатная</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

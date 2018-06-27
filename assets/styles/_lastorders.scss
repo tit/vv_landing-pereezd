@@ -1,0 +1,338 @@
+.Last-orders {
+    padding-bottom: 38px;
+
+    &__container {
+        max-width: 1170px;
+    }
+
+    & a {
+        text-decoration: none;
+    }
+
+    &__title {
+        text-align: center;
+        font: normal 40px $RobotoSlab;
+        padding: 55px 0 15px 0;
+    }
+
+    &__sub-title {
+        text-align: center;
+        padding-bottom: 52px;
+        font: 24px $Roboto;
+        font-weight: 100;
+        letter-spacing: 0.2px;
+    }
+
+    &__order-image-block {
+        height: 100%;
+    }
+
+    &__order-info {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        margin-left: 28px;
+        flex-wrap: wrap;
+    }
+
+    &__order {
+        padding: 15px;
+        min-height: 100px;
+        box-sizing: border-box;
+        margin: 0 0 14px 0;
+        background: #E5EEF7;
+        box-shadow: 0 1px 6px 0 rgba(0, 16, 48, 0.1),
+                    0 2px 4px 0 rgba(0, 16, 48, 0.3);
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        justify-content: space-between;
+    }
+
+    &__order-description,
+    &__order-data {
+        flex: 1;
+    }
+
+    &__order-description {
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding-right: 14px;
+        max-width: 460px;
+        box-sizing: border-box;
+    }
+
+    &__order-data {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__order-img {
+        max-height: 74px;
+        max-width: 74px;
+    }
+
+    &__order-data-display {
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px;
+    }
+
+    &__order-data-text {
+        margin-left: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #252525;
+    }
+
+    &__order-data-icon {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    &__order-type {
+        color: #3366CC;
+        font: bold 16px $Helvetica;
+    }
+
+    &__order-way {
+        font-weight: bold;
+        color: #252525;
+        font-size: 16px;
+        font-family: $Helvetica;
+        margin: 7px 0 5px 0;
+    }
+
+    &__order-date {
+        font-size: 13px;
+        color: #6b6b6b;
+    }
+
+    &__order-data-title {
+        font-size: 13px;
+        color: #6b6b6b;
+        font-family: $Helvetica;
+    }
+
+    &__to-calculator {
+        background: linear-gradient(to top, #ffc12f, #ffce43);
+        border: 0;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 40px auto 0 auto;
+        display: block;
+        padding: 19px 54px;
+        box-shadow: 0px 11px 14px -8px rgba(0, 0, 0, 0.2);
+        color: #252525;
+        font: 22px $Roboto;
+    }
+
+    & .slick-dots {
+        margin: 10px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 769px){
+    .Last-orders {
+
+        &__order-data {
+            flex-wrap: wrap;
+        }
+
+        &__order-data-block {
+            min-width: 50%;
+            margin: 0;
+
+            &:first-child {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .Last-orders {
+
+        &__order {
+            position: relative;
+        }
+
+        &__title {
+            font-size: 30px;
+            padding: 29px 0 9px 0;
+        }
+
+        &__order-description {
+            flex-basis: 100%;
+            margin-bottom: 11px;
+        }
+
+        &__order-data {
+            flex-basis: 100%;
+            padding-right: 82px;
+            justify-content: space-between;        
+        }
+
+        &__order {
+            padding: 14px 15px 16px 15px;
+            margin-bottom: 10px;
+        }
+
+        &__order-info {
+            margin-left: 24px;
+        }
+
+        &__order-type {
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            font-weight: 100;
+        }
+
+        &__order-data-block {
+            margin: 0;
+        }
+
+        &__order-data-text {
+            font-size: 16px;
+        }
+
+        &__order-date {
+            font-weight: 100;
+            letter-spacing: 0.3px;
+            font-family: $Helvetica;
+        }
+
+        &__order-data-title {
+            font-size: 12px;
+            letter-spacing: -0.05px;
+        }
+
+        &__order-way {
+            margin: 5px 0 3px 0;
+        }
+
+        &__sub-title {
+            padding-bottom: 32px;
+            letter-spacing: -0.05px;
+            font: normal 18px $Roboto;
+        }
+
+        &__to-calculator {
+            padding: 11px 25px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Last-orders {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Last-orders {
+
+        &__order-data {
+            flex-wrap: wrap;
+        }
+
+        &__order-data-block {
+            margin: 0;
+            flex-basis: 50%;
+
+            &:first-child {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Last-orders {
+
+        &__title {
+            font-size: 22px;
+        }
+
+        &__sub-title {
+            padding-bottom: 25px;
+            font-size: 19px;
+        }
+
+        &__order {
+            flex-wrap: wrap;
+        }
+
+        &__order-info {
+            flex: initial;
+            margin: 5px 0;
+            width: 100%;
+        }
+
+        &__order-img {
+            display: none;
+        }
+    }
+
+    .slick-slide .Last-orders__order-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Last-orders {
+
+        &__title {
+            padding: 30px 15px 11px 15px;
+            line-height: 26px;
+        }
+
+        &__sub-title {
+            padding-bottom: 19px;
+            font-size: 16px;
+        }
+
+        & .container {
+            padding: 0;
+        }
+
+        &__order {
+            margin: 11px;
+            padding: 18px 15px 16px 19px;
+        }
+
+        &__order-way {
+            margin: 7px 0 4px 0;
+            line-height: 20px;
+        }
+
+        &__order-info {
+            margin: 0;
+        }
+
+        &__order-data {
+            padding-right: 0;
+        }
+
+        &__order-data-text {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+
+        &__order-data-title {
+            font-size: 13px;
+        }
+
+        &__order-description {
+            margin-bottom: 24px;
+        }
+
+        &__order-type {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}

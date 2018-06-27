@@ -1,0 +1,37 @@
+{
+  "name": "VezetVsem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "svgo": "chmod +x svgo.sh; sh ./tools/svgo.sh;",
+    "lint": "scss-lint -c scss-lint.yml",
+    "lint-stats": "scss-lint -f Stats -c scss-lint.yml",
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "1.4.3",
+    "prevent-overscrolling": "1.1.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "6.7.2",
+    "cli-color": "1.1.0",
+    "gulp": "3.9.1",
+    "gulp-cached": "1.1.1",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "6.3.0",
+    "gulp-sass": "3.1.0",
+    "gulp-sass-partials-imported": "1.0.5",
+    "gulp-sourcemaps": "2.4.1",
+    "gulp-svgmin": "1.2.3",
+    "gulp-watch": "4.3.11",
+    "sass-graph": "2.1.2",
+    "svgo": "0.6.1"
+  },
+  "engines": {
+    "npm": ">=3"
+  }
+}

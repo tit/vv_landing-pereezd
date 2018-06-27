@@ -1,0 +1,83 @@
+.Faq {
+    padding: 30px 26px;
+
+    &__faqs-wrapper {
+        max-width: 1130px;
+        margin: 0 auto;
+    }
+
+    &__head {
+        background-color: #e5eef7;
+        padding: 19px 15px;
+        font-size: 24px;
+        color: #333333;
+    }
+
+    &__faq-dropdown {
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__dropdown-checkbox {
+        position: absolute;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    &__dropdown-checkbox:checked ~ &__answer {
+        max-height: 520px;
+    }
+
+    &__text-container {
+        margin: 0 auto;
+        max-width: 1165px;
+        position: relative;
+    }
+
+    &__faq-dropdown-text {
+        padding: 17px 70px 18px 38px;
+        cursor: pointer;
+        background: url(../images/down_arrow.png) no-repeat calc(100% - 30px) 50%;
+        background-size: 15px;
+        background-color: #fafafa;
+        overflow: hidden;
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            height: 1px;
+            background: url(../images/faq_dash.png);
+            width: calc(100% - 35px);
+        }
+    }
+
+    &__answer {
+        background: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .1s;
+
+        & p {
+            margin: 0 38px 17px 38px;
+
+            &:first-child {
+                margin-top: 25px;
+            }
+
+            &:last-child {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .Faq {
+        padding: 0;
+    }
+}

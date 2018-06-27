@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182px" height="120px" viewBox="0 0 182 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>72B32CE2-B722-447C-8084-87F37C7E227D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="frontend" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pereezdy-desktop" transform="translate(-438.000000, -707.000000)">
+            <g id="Group-9-Copy" transform="translate(25.000000, 543.000000)">
+                <g id="3-normal-copy-2" transform="translate(413.000000, 164.000000)">
+                    <rect id="Rectangle-2" stroke="#C2CBDA" fill="#FFFFFF" x="0.5" y="0.5" width="181" height="119" rx="4"></rect>
+                    <g id="Group" transform="translate(19.000000, 16.000000)">
+                        <g id="Group-20" transform="translate(0.000000, 1.000000)">
+                            <path d="M51,1 L2,1 L2,37 L51,37 L51,1 Z" id="Rectangle-9" stroke="#2E425E" stroke-width="2" fill="#FFFFFF"></path>
+                            <text id="1" opacity="0.5" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#2E425E">
+                                <tspan x="21.4462891" y="26">1</tspan>
+                            </text>
+                            <rect id="Rectangle-9-Copy" stroke="#2E425E" fill="#FFFFFF" x="0.5" y="14.5" width="3" height="15"></rect>
+                            <rect id="Rectangle-9-Copy-2" stroke="#2E425E" fill="#FFFFFF" x="0.5" y="8.5" width="3" height="15"></rect>
+                        </g>
+                        <g id="Group-20-Copy-2" transform="translate(118.000000, 29.500000) scale(-1, -1) translate(-118.000000, -29.500000) translate(92.000000, 10.000000)">
+                            <path d="M51,2 L2,2 L2,38 L51,38 L51,2 Z" id="Rectangle-9" stroke="#2E425E" stroke-width="2" fill="#FFFFFF"></path>
+                            <text id="3" opacity="0.5" transform="translate(25.500000, 20.500000) scale(-1, -1) translate(-25.500000, -20.500000) " font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#2E425E">
+                                <tspan x="20.4462891" y="27">3</tspan>
+                            </text>
+                            <rect id="Rectangle-9-Copy-3" stroke="#2E425E" fill="#FFFFFF" x="17.5" y="0.5" width="15" height="3"></rect>
+                            <rect id="Rectangle-9-Copy" stroke="#2E425E" fill="#FFFFFF" x="0.5" y="15.5" width="3" height="15"></rect>
+                            <rect id="Rectangle-9-Copy-2" stroke="#2E425E" fill="#FFFFFF" x="0.5" y="9.5" width="3" height="15"></rect>
+                        </g>
+                        <g id="Group-20-Copy" transform="translate(72.000000, 24.000000) rotate(-180.000000) translate(-72.000000, -24.000000) translate(41.000000, 0.000000)">
+                            <path d="M52,1 L10,1 L10,46 L52,46 L52,1 Z" id="Rectangle-9" stroke="#2E425E" stroke-width="2" fill="#FFFFFF"></path>
+                            <text id="2" opacity="0.5" transform="translate(31.500000, 24.500000) scale(-1, -1) translate(-31.500000, -24.500000) " font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#2E425E">
+                                <tspan x="26.4462891" y="31">2</tspan>
+                            </text>
+                            <path d="M62,38.4953752 C58.923281,38.5465858 56.423281,37.7023366 54.5,35.9626276 C52.576719,34.2229185 51.4100523,31.9012332 51,28.9975717 L62,28.9975717" id="Path-3" stroke="#2E425E" fill="#FFFFFF" transform="translate(56.500000, 33.747572) rotate(-180.000000) translate(-56.500000, -33.747572) "></path>
+                            <path d="M11,26.4953752 C7.92328102,26.5465858 5.42328102,25.7023366 3.5,23.9626276 C1.57671898,22.2229185 0.410052312,19.9012332 1.42108547e-14,16.9975717 L11,16.9975717" id="Path-3-Copy-2" stroke="#2E425E" fill="#FFFFFF" transform="translate(5.500000, 21.747572) rotate(-360.000000) translate(-5.500000, -21.747572) "></path>
+                            <path d="M36.5,10.2478035 C33.423281,10.2990141 30.923281,9.45476495 29,7.71505588 C27.076719,5.97534682 25.9100523,3.65366152 25.5,0.75 L36.5,0.75" id="Path-3-Copy" stroke="#2E425E" fill="#FFFFFF" transform="translate(31.000000, 5.500000) rotate(-90.000000) translate(-31.000000, -5.500000) "></path>
+                            <rect id="Rectangle-9-Copy-3" stroke="#2E425E" fill="#FFFFFF" x="23.5" y="44.5" width="15" height="3"></rect>
+                        </g>
+                    </g>
+                    <text id="3-х-комнатная" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#262626">
+                        <tspan x="34.535" y="88">3-х комнатная</tspan>
+                    </text>
+                    <text id="квартира" opacity="0.699999988" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                        <tspan x="63.1475" y="104">квартира</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
